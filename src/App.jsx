@@ -6,8 +6,6 @@ import Certifications from './components/Certifications';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import { Helmet } from 'react-helmet';
-import '@fortawesome/fontawesome-free/css/all.min.css';
-
 
 function App() {
   return (
@@ -17,14 +15,14 @@ function App() {
         <meta name="description" content="Portfolio of christie liu" />
         <link rel="canonical" href="https://christieliu.xyz" />
       </Helmet>
-      <div className="bg-gradient-to-br from-pink-100 via-blue-100 to-white text-gray-900">
+      <div className="text-gray-900">
         <Navbar />
         <Hero />
         <About />
         <Experience />
         <Certifications />
         <Contact />
-        <footer className="text-center py-4 text-sm text-gray-600">made with react and tailwind</footer>
+        <footer className="text-center py-4 text-sm text-gray-600">made with love w/ react and tailwind</footer>
       </div>
     </>
   );
