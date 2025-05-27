@@ -6,6 +6,8 @@ import Certifications from './components/Certifications';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import { Helmet } from 'react-helmet';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
   return (
